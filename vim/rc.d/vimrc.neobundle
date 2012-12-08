@@ -54,4 +54,7 @@ NeoBundle 'Vim-R-plugin'
 NeoBundle 'ervandew/screen.git'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 
+"For recognize charctor encodings automatically
+NeoBundle 'banyan/recognize_charcode.vim'
+
 filetype plugin indent on     " required! 
