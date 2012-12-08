@@ -6,6 +6,9 @@ source ~/.vim/rc.d/vimrc.colors
 " settings for encodings
 source ~/.vim/rc.d/vimrc.encodings
 
+" settings for completion
+source ~/.vim/rc.d/vimrc.completion
+
 " Basic settings
 
 "
@@ -22,12 +25,6 @@ autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
 " for file type plugin
 " ------------------------------------------------------------------------------
 :filetype plugin on
-
-" ------------------------------------------------------------------------------
-" for neocomplcache
-" ------------------------------------------------------------------------------
-let g:neocomplcache_enable_at_startup = 1 "
-
 
 " ------------------------------------------------------------------------------
 " Basic Settings

@@ -41,7 +41,6 @@ NeoBundle 'fuenor/qfixhowm'
 	NeoBundle 'yuroyoro/yuroyoro256.vim'
 	NeoBundle 'Zenburn'
 " }}}
-"NeoBundle 'project.vim'
 NeoBundle 'project.tar.gz'
 NeoBundle 'The-NERD-tree'
 NeoBundle 'mitechie/pyflakes-pathogen'
