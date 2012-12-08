@@ -1,16 +1,8 @@
-" load plugins managed by NeoBundle
-source ~/.vim/rc.d/vimrc.neobundle
-" color settings
-source ~/.vim/rc.d/vimrc.colors
-
-" settings for encodings
-source ~/.vim/rc.d/vimrc.encodings
-
-" settings for completion
-source ~/.vim/rc.d/vimrc.completion
-
-" Basic settings
-source ~/.vim/rc.d/vimrc.basic
+source ~/.vim/rc.d/vimrc.neobundle	" load plugins managed by NeoBundle
+source ~/.vim/rc.d/vimrc.basic		" Basic settings
+source ~/.vim/rc.d/vimrc.colors		" color settings
+source ~/.vim/rc.d/vimrc.encodings	" settings for encodings
+source ~/.vim/rc.d/vimrc.completion	" settings for completion
 
 " ------------------------------------------------------------------------------
 " for python
