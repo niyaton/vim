@@ -40,6 +40,7 @@ NeoBundle 'fuenor/qfixhowm'
 	NeoBundle 'tomasr/molokai'
 	NeoBundle 'yuroyoro/yuroyoro256.vim'
 	NeoBundle 'Zenburn'
+	NeoBundle 'Wombat'
 " }}}
 NeoBundle 'project.tar.gz'
 NeoBundle 'The-NERD-tree'

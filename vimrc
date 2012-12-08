@@ -3,8 +3,8 @@ source ~/.vim/rc.d/vimrc.basic		" load Basic settings
 source ~/.vim/rc.d/vimrc.editing	" load edit settings
 source ~/.vim/rc.d/vimrc.statusline	" load statusline settings
 source ~/.vim/rc.d/vimrc.indent		" load indent settings
-source ~/.vim/rc.d/vimrc.appearance	" load setting for appearance of Vim
 source ~/.vim/rc.d/vimrc.colors		" load color settings
+source ~/.vim/rc.d/vimrc.appearance	" load setting for appearance of Vim
 source ~/.vim/rc.d/vimrc.search		" load search settings
 source ~/.vim/rc.d/vimrc.encodings	" load settings for encodings
 source ~/.vim/rc.d/vimrc.completion	" load settings for completion
