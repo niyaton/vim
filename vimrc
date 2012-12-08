@@ -1,5 +1,6 @@
 source ~/.vim/rc.d/vimrc.neobundle	" load plugins managed by NeoBundle
 source ~/.vim/rc.d/vimrc.basic		" Basic settings
+source ~/.vim/rc.d/vimrc.statusline	" statusline settings
 source ~/.vim/rc.d/vimrc.colors		" color settings
 source ~/.vim/rc.d/vimrc.encodings	" settings for encodings
 source ~/.vim/rc.d/vimrc.completion	" settings for completion
@@ -26,11 +27,7 @@ set backspace=indent,eol,start
 "set noimcmdline
 "inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
 
-" ------------------------------------------------------------------------------
-" for vim-powerline 
-" ------------------------------------------------------------------------------
-set laststatus=2 " always display status line
-let g:Powerline_symbols = 'fancy'
+
 
 "カーソルが何行目の何列目に置かれているかを表示する
 set ruler
