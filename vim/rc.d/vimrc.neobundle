@@ -14,20 +14,18 @@ endif
 NeoBundle 'gmarik/vundle'
 
 " My Bundles here:
-"
-NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'L9'						"Vim-script library
+NeoBundle 'tpope/vim-fugitive'				"Git plugin for vim
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-rails.git'
-NeoBundle 'L9'
 NeoBundle 'FuzzyFinder'
 NeoBundle 'git://git.wincent.com/command-t.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
 NeoBundle 'c9s/cascading.vim'
 NeoBundle 'Shougo/unite.vim'				"Unite.vim
 NeoBundle 'Shougo/neocomplcache'			"NeoComplcache 
-NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
 NeoBundle 'project.tar.gz'
 NeoBundle 'The-NERD-tree'
 NeoBundle 'mitechie/pyflakes-pathogen'
@@ -41,14 +39,11 @@ NeoBundle 'ervandew/screen.git'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 
 " ColorSchema{{{{
-" color schema 256
-"	NeoBundle 'desert256.vim'
-"	NeoBundle 'mrkn256.vim'
-"	NeoBundle 'tomasr/molokai'
-"	NeoBundle 'yuroyoro/yuroyoro256.vim'
-"	NeoBundle 'Zenburn'
 	NeoBundle 'Wombat'
 " }}}
 
+" Encoding {{{
+NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
+" }}}
 
 filetype plugin indent on     " required! 
