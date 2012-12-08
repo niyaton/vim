@@ -15,33 +15,19 @@ NeoBundle 'gmarik/vundle'
 
 " My Bundles here:
 "
-" original repos on github
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-rails.git'
-" vim-scripts repos
 NeoBundle 'L9'
 NeoBundle 'FuzzyFinder'
-" non github repos
 NeoBundle 'git://git.wincent.com/command-t.git'
-
 NeoBundle 'scrooloose/nerdcommenter.git'
 NeoBundle 'c9s/cascading.vim'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'fuenor/qfixhowm'
-
-" ColorSchema{{{{
-" color schema 256
-	NeoBundle 'desert256.vim'
-	NeoBundle 'mrkn256.vim'
-	NeoBundle 'tomasr/molokai'
-	NeoBundle 'yuroyoro/yuroyoro256.vim'
-	NeoBundle 'Zenburn'
-	NeoBundle 'Wombat'
-" }}}
+NeoBundle 'Shougo/unite.vim'				"Unite.vim
+NeoBundle 'Shougo/neocomplcache'			"NeoComplcache 
+NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
 NeoBundle 'project.tar.gz'
 NeoBundle 'The-NERD-tree'
 NeoBundle 'mitechie/pyflakes-pathogen'
@@ -54,7 +40,15 @@ NeoBundle 'Vim-R-plugin'
 NeoBundle 'ervandew/screen.git'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 
-"For recognize charctor encodings automatically
-NeoBundle 'banyan/recognize_charcode.vim'
+" ColorSchema{{{{
+" color schema 256
+"	NeoBundle 'desert256.vim'
+"	NeoBundle 'mrkn256.vim'
+"	NeoBundle 'tomasr/molokai'
+"	NeoBundle 'yuroyoro/yuroyoro256.vim'
+"	NeoBundle 'Zenburn'
+	NeoBundle 'Wombat'
+" }}}
+
 
 filetype plugin indent on     " required! 
