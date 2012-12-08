@@ -1,64 +1,10 @@
-" ------------------------------------------------------------------------------
-" for neobundle.vim
-" ------------------------------------------------------------------------------
-set nocompatible		" be iMproved
-filetype plugin indent off	" required!
+" load plugins managed by NeoBundle
+source ~/.vim/rc.d/vimrc.neobundle
 
-if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-  call neobundle#rc(expand('~/.vim/bundle/'))
-endif
-"set rtp+=~/.vim/bundle/vundle/
-"call vundle#rc()
 
-" let Vundle manage Vundle
-" required! 
-NeoBundle 'gmarik/vundle'
+" Basic settings
 
-" My Bundles here:
 "
-" original repos on github
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'Lokaltog/vim-easymotion'
-NeoBundle 'Lokaltog/vim-powerline'
-NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-NeoBundle 'tpope/vim-rails.git'
-" vim-scripts repos
-NeoBundle 'L9'
-NeoBundle 'FuzzyFinder'
-" non github repos
-NeoBundle 'git://git.wincent.com/command-t.git'
-
-NeoBundle 'scrooloose/nerdcommenter.git'
-NeoBundle 'c9s/cascading.vim'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'fuenor/qfixhowm'
-
-" ColorSchema{{{{
-" color schema 256
-	NeoBundle 'desert256.vim'
-	NeoBundle 'mrkn256.vim'
-	NeoBundle 'tomasr/molokai'
-	NeoBundle 'yuroyoro/yuroyoro256.vim'
-	NeoBundle 'Zenburn'
-" }}}
-"NeoBundle 'project.vim'
-NeoBundle 'project.tar.gz'
-NeoBundle 'The-NERD-tree'
-NeoBundle 'mitechie/pyflakes-pathogen'
-NeoBundle 'reinh/vim-makegreen'
-NeoBundle 'lambdalisue/nose.vim'
-"NeoBundle 'sontek/rope-vim'
-"NeoBundle 'webframp/pysmell.vim'
-NeoBundle 'mattn/zencoding-vim'
-NeoBundle 'Vim-R-plugin'
-NeoBundle 'ervandew/screen.git'
-NeoBundle 'nathanaelkane/vim-indent-guides'
-" ...
-
-filetype plugin indent on     " required! 
-"enc for vundle
 
 " ------------------------------------------------------------------------------
 " for auto setting fileencoding 
