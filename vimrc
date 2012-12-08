@@ -1,6 +1,5 @@
 " load plugins managed by NeoBundle
 source ~/.vim/rc.d/vimrc.neobundle
-
 " color settings
 source ~/.vim/rc.d/vimrc.colors
 
@@ -105,9 +104,6 @@ set ttymouse=xterm2
 "set iminsert=0 imsearch=0
 "set noimcmdline
 "inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
-
-" for howm
-let howm_dir = '~/Dropbox/howm'
 
 " ------------------------------------------------------------------------------
 " for vim-powerline 
