@@ -1,0 +1,11 @@
+set showmatch	" hilight () {} []
+set number 	" display line number
+
+" Dispaly ZenkakuSpace
+highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+match ZenkakuSpace /　/
+
+
+"set layzyredraw " Do not redraw when executing some command
+set ttyfast	" Use smooth redraw on CUI
+

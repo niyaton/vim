@@ -1,9 +1,11 @@
 source ~/.vim/rc.d/vimrc.neobundle	" load plugins managed by NeoBundle
-source ~/.vim/rc.d/vimrc.basic		" Basic settings
-source ~/.vim/rc.d/vimrc.statusline	" statusline settings
-source ~/.vim/rc.d/vimrc.colors		" color settings
-source ~/.vim/rc.d/vimrc.encodings	" settings for encodings
-source ~/.vim/rc.d/vimrc.completion	" settings for completion
+source ~/.vim/rc.d/vimrc.basic		" load Basic settings
+source ~/.vim/rc.d/vimrc.statusline	" load statusline settings
+source ~/.vim/rc.d/vimrc.indent		" load indent settings
+source ~/.vim/rc.d/vimrc.appearance	" load setting for appearance of Vim
+source ~/.vim/rc.d/vimrc.colors		" load color settings
+source ~/.vim/rc.d/vimrc.encodings	" load settings for encodings
+source ~/.vim/rc.d/vimrc.completion	" load settings for completion
 
 " ------------------------------------------------------------------------------
 " for python
@@ -48,38 +50,6 @@ let g:Powerline_symbols = 'fancy'
 " autocmd InsertEnter * highlight StatusLine guifg=#ccdc90 guibg=#2E4340 ctermfg=cyan
 " autocmd InsertLeave * highlight StatusLine guifg=#2E4340 guibg=#ccdc90 ctermfg=white
 " augroup END
-
-"自動的に QuickFix リストを表示する
-autocmd QuickfixCmdPost make,grep,grepadd,vimgrep,vimgrepadd cwin
-autocmd QuickfixCmdPost lmake,lgrep,lgrepadd,lvimgrep,lvimgrepadd lwin
-
-function! GetB()
-  let c = matchstr(getline('.'), '.', col('.') - 1)
-  let c = iconv(c, &enc, &fenc)
-  return String2Hex(c)
-endfunction
-" help eval-examples
-" The function Nr2Hex() returns the Hex string of a number.
-func! Nr2Hex(nr)
-  let n = a:nr
-  let r = ""
-  while n
-    let r = '0123456789ABCDEF'[n % 16] . r
-    let n = n / 16
-  endwhile
-  return r
-endfunc
-" The function String2Hex() converts each character in a string to a two
-" character Hex string.
-func! String2Hex(str)
-  let out = ''
-  let ix = 0
-  while ix < strlen(a:str)
-    let out = out . Nr2Hex(char2nr(a:str[ix]))
-    let ix = ix + 1
-  endwhile
-  return out
-endfunc
 
 
 " for vim-indent-guides
