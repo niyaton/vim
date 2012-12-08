@@ -1,21 +1,7 @@
 " color settings
-
-if !has('gui_running')
-	let g:zenburn_force_dark_Background = 1
-	let g:zenburn_unified_CursorColumn = 1
-	colorscheme zenburn
-end
-
-if has('gui_running')
-	let g:zenburn_force_dark_Background = 1
-	let g:zenburn_unified_CursorColumn = 1
-	colorscheme zenburn
-	"set guifont=Osaka-Mono:h14
-	set guifont=Monaco\ for\ Powerline:h14
-end
-
-" colorscheme yuroyoro256
-" colorscheme mrkn256
+let g:zenburn_force_dark_Background = 1
+let g:zenburn_unified_CursorColumn = 1
+colorscheme zenburn
 
 " ターミナルタイプによるカラー設定
 if &term =~ "xterm-256color" || "screen-256color"
@@ -33,5 +19,4 @@ elseif &term =~ "xterm-color"
   set t_Sb=[4%dm
 endif
 
-syntax enable
-
+syntax enable " turn on syntax hilighting

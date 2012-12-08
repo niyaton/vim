@@ -9,3 +9,7 @@ match ZenkakuSpace /　/
 "set layzyredraw " Do not redraw when executing some command
 set ttyfast	" Use smooth redraw on CUI
 
+" font setting for MacVim
+if !has('gui_running')
+	set guifont=Monaco\ for\ Powerline:h14
+end
