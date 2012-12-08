@@ -10,8 +10,7 @@ source ~/.vim/rc.d/vimrc.encodings
 source ~/.vim/rc.d/vimrc.completion
 
 " Basic settings
-
-"
+source ~/.vim/rc.d/vimrc.basic
 
 " ------------------------------------------------------------------------------
 " for python
@@ -20,21 +19,10 @@ autocmd FileType python setl autoindent
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
-
-" ------------------------------------------------------------------------------
-" for file type plugin
-" ------------------------------------------------------------------------------
-:filetype plugin on
-
 " ------------------------------------------------------------------------------
 " Basic Settings
 " ------------------------------------------------------------------------------
 set backspace=indent,eol,start
-
-" enable mouse on terminal.
-set mouse=a
-set guioptions+=a
-set ttymouse=xterm2
 
 " ------------------------------------------------------------------------------
 "  Edit Settings
