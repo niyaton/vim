@@ -1,6 +1,8 @@
 " load plugins managed by NeoBundle
 source ~/.vim/rc.d/vimrc.neobundle
 
+" color settings
+source ~/.vim/rc.d/vimrc.colors
 
 " Basic settings
 
@@ -71,45 +73,6 @@ endif
 autocmd FileType python setl autoindent
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
-
-
-" ------------------------------------------------------------------------------
-" for color
-" ------------------------------------------------------------------------------
-if !has('gui_running')
-	let g:zenburn_force_dark_Background = 1
-	let g:zenburn_unified_CursorColumn = 1
-	colorscheme zenburn
-end
-
-if has('gui_running')
-	let g:zenburn_force_dark_Background = 1
-	let g:zenburn_unified_CursorColumn = 1
-	colorscheme zenburn
-	"set guifont=Osaka-Mono:h14
-	set guifont=Monaco\ for\ Powerline:h14
-end
-
-" colorscheme yuroyoro256
-" colorscheme mrkn256
-
-" ターミナルタイプによるカラー設定
-if &term =~ "xterm-256color" || "screen-256color"
-  " 256色
-  set t_Co=256
-  set t_Sf=[3%dm
-  set t_Sb=[4%dm
-elseif &term =~ "xterm-debian" || &term =~ "xterm-xfree86"
-  set t_Co=16
-  set t_Sf=[3%dm
-  set t_Sb=[4%dm
-elseif &term =~ "xterm-color"
-  set t_Co=8
-  set t_Sf=[3%dm
-  set t_Sb=[4%dm
-endif
-
-syntax enable
 
 
 " ------------------------------------------------------------------------------
