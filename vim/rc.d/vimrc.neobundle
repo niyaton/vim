@@ -17,9 +17,9 @@ NeoBundle 'gmarik/vundle'
 NeoBundle 'L9'						"Vim-script library
 NeoBundle 'tpope/vim-fugitive'				"Git plugin for vim
 NeoBundle 'Lokaltog/vim-easymotion'
-NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'Lokaltog/vim-powerline'			"improve status line
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-NeoBundle 'tpope/vim-rails.git'
+NeoBundle 'tpope/vim-rails.git'				"Rails plugin for vim
 NeoBundle 'FuzzyFinder'
 NeoBundle 'git://git.wincent.com/command-t.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
@@ -34,9 +34,10 @@ NeoBundle 'lambdalisue/nose.vim'
 "NeoBundle 'sontek/rope-vim'
 "NeoBundle 'webframp/pysmell.vim'
 NeoBundle 'mattn/zencoding-vim'
-NeoBundle 'Vim-R-plugin'
+NeoBundle 'Vim-R-plugin'				"R plugin for vim
 NeoBundle 'ervandew/screen.git'
 NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 
 " ColorSchema{{{{
 	NeoBundle 'Wombat'
