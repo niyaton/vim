@@ -24,10 +24,14 @@ NeoBundle 'FuzzyFinder'
 NeoBundle 'git://git.wincent.com/command-t.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
 NeoBundle 'c9s/cascading.vim'
+NeoBundle 'taku-o/vim-toggle'				"toggel true/false by <C-a>
+NeoBundle 'Gundo'					"improve undo
+NeoBundle 'Align'					"improve alignment
+NeoBundle 'YankRing.vim'				"improve yank
 NeoBundle 'Shougo/unite.vim'				"Unite.vim
 NeoBundle 'Shougo/neocomplcache'			"NeoComplcache 
-NeoBundle 'project.tar.gz'
-NeoBundle 'The-NERD-tree'
+NeoBundle 'project.tar.gz'				"manage files as project
+NeoBundle 'The-NERD-tree'				"Tree style explorer
 NeoBundle 'mitechie/pyflakes-pathogen'
 NeoBundle 'reinh/vim-makegreen'
 NeoBundle 'lambdalisue/nose.vim'
@@ -35,9 +39,10 @@ NeoBundle 'lambdalisue/nose.vim'
 "NeoBundle 'webframp/pysmell.vim'
 NeoBundle 'mattn/zencoding-vim'
 NeoBundle 'Vim-R-plugin'				"R plugin for vim
-NeoBundle 'ervandew/screen.git'
+NeoBundle 'ervandew/screen.git'				"R plugin use it
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
+NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 
 " ColorSchema{{{{
 	NeoBundle 'Wombat'

@@ -3,6 +3,10 @@ let g:zenburn_force_dark_Background = 1
 let g:zenburn_unified_CursorColumn = 1
 colorscheme wombat
 
+if g:colors_name ==? 'wombat'
+  hi Visual gui=none guifg=khaki guibg=olivedrab	" from sesert
+endif
+
 " ターミナルタイプによるカラー設定
 if &term =~ "xterm-256color" || "screen-256color"
   " 256色
