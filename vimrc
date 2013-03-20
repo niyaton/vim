@@ -8,6 +8,7 @@ source ~/.vim/rc.d/vimrc.appearance	" load setting for appearance of Vim
 source ~/.vim/rc.d/vimrc.search		" load search settings
 source ~/.vim/rc.d/vimrc.encodings	" load settings for encodings
 source ~/.vim/rc.d/vimrc.completion	" load settings for completion
+source ~/.vim/rc.d/vimrc.plugin_settings " load plugin settings
 
 " ------------------------------------------------------------------------------
 " for python
