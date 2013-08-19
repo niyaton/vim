@@ -9,4 +9,5 @@ let dumbbuf_hotkey = '<Leader>b<Space>'
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBuffs = 1
-
+" Toggle MiniBufExplorer
+" nnoremap gbb:TMiniBufExplorer<CR>
