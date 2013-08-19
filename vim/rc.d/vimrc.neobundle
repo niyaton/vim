@@ -43,6 +43,8 @@ NeoBundle 'ervandew/screen.git'				"R plugin use it
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
+NeoBundle 'jgdavey/tslime.vim'
+NeoBundle 'elzr/vim-json'
 
 " ColorSchema{{{{
 	NeoBundle 'Wombat'
