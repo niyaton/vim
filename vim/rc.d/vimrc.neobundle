@@ -21,7 +21,7 @@ NeoBundle 'Lokaltog/vim-powerline'			"improve status line
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-rails.git'				"Rails plugin for vim
 NeoBundle 'FuzzyFinder'
-NeoBundle 'git://git.wincent.com/command-t.git'
+NeoBundle 'wincent/Command-T.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
 NeoBundle 'c9s/cascading.vim'
 NeoBundle 'taku-o/vim-toggle'				"toggel true/false by <C-a>
