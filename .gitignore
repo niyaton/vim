@@ -2,7 +2,8 @@
 *~
 *.zwc
 *.swp
-vim/bundle
+vim/bundle/*
+!vim/bundle/.gitkeep
 zsh/rbenv.init
 zsh/rbenv.init-no-rehash
 zsh/pyenv.init
