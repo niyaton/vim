@@ -1,11 +1,5 @@
 .DS_Store
 *~
-*.zwc
 *.swp
 vim/bundle/*
 !vim/bundle/.gitkeep
-zsh/rbenv.init
-zsh/rbenv.init-no-rehash
-zsh/pyenv.init
-zsh/pyenv.init-no-rehash
-zsh/java_home
