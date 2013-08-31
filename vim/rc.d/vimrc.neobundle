@@ -19,7 +19,6 @@ NeoBundle 'tpope/vim-fugitive'				"Git plugin for vim
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'Lokaltog/vim-powerline'			"improve status line
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-NeoBundle 'tpope/vim-rails.git'				"Rails plugin for vim
 NeoBundle 'FuzzyFinder'
 NeoBundle 'wincent/Command-T.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
@@ -34,26 +33,42 @@ NeoBundle 'project.tar.gz'				"manage files as project
 NeoBundle 'The-NERD-tree'				"Tree style explorer
 NeoBundle 'mitechie/pyflakes-pathogen'
 NeoBundle 'reinh/vim-makegreen'
-NeoBundle 'lambdalisue/nose.vim'
-"NeoBundle 'sontek/rope-vim'
-"NeoBundle 'webframp/pysmell.vim'
 NeoBundle 'mattn/zencoding-vim'
-NeoBundle 'Vim-R-plugin'				"R plugin for vim
-NeoBundle 'ervandew/screen.git'				"R plugin use it
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
-NeoBundle 'elzr/vim-json'
-NeoBundle 'Markdown'
-NeoBundle 'niyaton/vim-instant-markdown'
 
-" ColorSchema{{{{
+" For Python {
+	"NeoBundle 'sontek/rope-vim'
+	"NeoBundle 'webframp/pysmell.vim'
+	NeoBundle 'lambdalisue/nose.vim'
+" }
+
+" For R {
+	NeoBundle 'Vim-R-plugin'				" R plugin for vim
+	NeoBundle 'ervandew/screen.git'				" R plugin use it
+" }
+
+" For Rails {
+	NeoBundle 'tpope/vim-rails'	
+" }
+
+" For JSON {
+	NeoBundle 'elzr/vim-json'
+" }
+
+" For Markdown {
+	NeoBundle 'Markdown'
+	NeoBundle 'niyaton/vim-instant-markdown'
+" }
+
+" ColorSchema {
 	NeoBundle 'Wombat'
-" }}}
+" }
 
-" Encoding {{{
-NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
-" }}}
+" Encoding {
+	NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
+" }
 
 filetype plugin indent on     " required! 
