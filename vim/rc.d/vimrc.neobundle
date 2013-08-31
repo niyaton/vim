@@ -48,12 +48,12 @@ NeoBundle 'elzr/vim-json'
 NeoBundle 'Markdown'
 NeoBundle 'niyaton/vim-instant-markdown'
 
-" ColorSchema{{{{
+" ColorSchema {
 	NeoBundle 'Wombat'
-" }}}
+" }
 
-" Encoding {{{
+" Encoding {
 NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
-" }}}
+" }
 
 filetype plugin indent on     " required! 
