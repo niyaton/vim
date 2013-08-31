@@ -33,14 +33,17 @@ NeoBundle 'project.tar.gz'				"manage files as project
 NeoBundle 'The-NERD-tree'				"Tree style explorer
 NeoBundle 'mitechie/pyflakes-pathogen'
 NeoBundle 'reinh/vim-makegreen'
-NeoBundle 'lambdalisue/nose.vim'
-"NeoBundle 'sontek/rope-vim'
-"NeoBundle 'webframp/pysmell.vim'
 NeoBundle 'mattn/zencoding-vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
+
+" For Python {
+	"NeoBundle 'sontek/rope-vim'
+	"NeoBundle 'webframp/pysmell.vim'
+	NeoBundle 'lambdalisue/nose.vim'
+" }
 
 " For R {
 	NeoBundle 'Vim-R-plugin'				" R plugin for vim
