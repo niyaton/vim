@@ -37,12 +37,15 @@ NeoBundle 'lambdalisue/nose.vim'
 "NeoBundle 'sontek/rope-vim'
 "NeoBundle 'webframp/pysmell.vim'
 NeoBundle 'mattn/zencoding-vim'
-NeoBundle 'Vim-R-plugin'				" R plugin for vim
-NeoBundle 'ervandew/screen.git'				" R plugin use it
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
+
+" For R {
+	NeoBundle 'Vim-R-plugin'				" R plugin for vim
+	NeoBundle 'ervandew/screen.git'				" R plugin use it
+" }
 
 " For Rails {
 	NeoBundle 'tpope/vim-rails'	
