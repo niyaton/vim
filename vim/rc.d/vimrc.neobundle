@@ -45,15 +45,18 @@ NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
 NeoBundle 'elzr/vim-json'
-NeoBundle 'Markdown'
-NeoBundle 'niyaton/vim-instant-markdown'
+
+" For Markdown {
+	NeoBundle 'Markdown'
+	NeoBundle 'niyaton/vim-instant-markdown'
+" }
 
 " ColorSchema {
 	NeoBundle 'Wombat'
 " }
 
 " Encoding {
-NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
+	NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
 " }
 
 filetype plugin indent on     " required! 
