@@ -19,7 +19,6 @@ NeoBundle 'tpope/vim-fugitive'				"Git plugin for vim
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'Lokaltog/vim-powerline'			"improve status line
 NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-NeoBundle 'tpope/vim-rails.git'				"Rails plugin for vim
 NeoBundle 'FuzzyFinder'
 NeoBundle 'wincent/Command-T.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
@@ -44,6 +43,10 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
+
+" For Rails {
+	NeoBundle 'tpope/vim-rails'	
+" }
 
 " For JSON {
 	NeoBundle 'elzr/vim-json'
