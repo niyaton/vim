@@ -38,6 +38,7 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
+NeoBundle 'Rykka/riv.vim'
 
 " For Python {
 	"NeoBundle 'sontek/rope-vim'
