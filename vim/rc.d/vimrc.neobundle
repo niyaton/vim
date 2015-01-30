@@ -37,7 +37,7 @@ NeoBundle 'project.tar.gz'				"manage files as project
 NeoBundle 'The-NERD-tree'				"Tree style explorer
 NeoBundle 'mitechie/pyflakes-pathogen'
 NeoBundle 'reinh/vim-makegreen'
-NeoBundle 'mattn/zencoding-vim'
+NeoBundle 'mattn/emmet-vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
