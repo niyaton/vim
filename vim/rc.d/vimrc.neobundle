@@ -1,17 +1,21 @@
-set nocompatible		" be iMproved
-filetype plugin indent off	" required!
+" set nocompatible		" be iMproved
+" filetype plugin indent off	" required!
 
 if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-  call neobundle#rc(expand('~/.vim/bundle/'))
+	if &compatible
+		set nocompatible	" Be iMproved
+	endif
+
+	" Required:
+	set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
-"set rtp+=~/.vim/bundle/vundle/
-"call vundle#rc()
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
 
-" let Vundle manage Vundle
-" required! 
-NeoBundle 'gmarik/vundle'
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
 NeoBundle 'L9'						"Vim-script library
@@ -72,5 +76,7 @@ NeoBundle 'Rykka/riv.vim'
 " Encoding {
 	NeoBundle 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
 " }
+
+call neobundle#end()
 
 filetype plugin indent on     " required! 
