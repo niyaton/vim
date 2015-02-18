@@ -18,6 +18,15 @@ autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,exc
 autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 " ------------------------------------------------------------------------------
+" for ruby
+" ------------------------------------------------------------------------------
+
+autocmd FileType ruby setl autoindent
+autocmd FileType ruby setl smartindent
+autocmd FileType ruby setl expandtab
+autocmd FileType ruby setl tabstop=2 shiftwidth=2 softtabstop=2
+
+" ------------------------------------------------------------------------------
 " Basic Settings
 " ------------------------------------------------------------------------------
 set backspace=indent,eol,start

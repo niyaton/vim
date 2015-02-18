@@ -43,6 +43,7 @@ NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
 NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
 NeoBundle 'Rykka/riv.vim'
+NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
 
 " For Python {
 	"NeoBundle 'sontek/rope-vim'
@@ -56,8 +57,13 @@ NeoBundle 'Rykka/riv.vim'
 	NeoBundle 'ervandew/screen.git'				" R plugin use it
 " }
 
+" For Ruby {
+	"NeoBundle 'tpope/vim-endwise'
+	NeoBundle 'vim-ruby/vim-ruby'
+" }
+
 " For Rails {
-	NeoBundle 'tpope/vim-rails'	
+	NeoBundle 'tpope/vim-rails'
 " }
 
 " For JSON {
