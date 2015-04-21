@@ -70,6 +70,10 @@ NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in en
 	NeoBundle 'elzr/vim-json'
 " }
 
+" For Coffee Script {
+	NeoBundle 'kchmck/vim-coffee-script'
+" }
+
 " For Markdown {
 	NeoBundle 'Markdown'
 	NeoBundle 'niyaton/vim-instant-markdown'
