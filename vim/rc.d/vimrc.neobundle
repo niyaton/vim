@@ -66,6 +66,10 @@ NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in en
 	NeoBundle 'tpope/vim-rails'
 " }
 
+" For Go {
+	NeoBundle 'fatih/vim-go'
+" }
+
 " For JSON {
 	NeoBundle 'elzr/vim-json'
 " }
