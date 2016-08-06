@@ -7,8 +7,8 @@ setl expandtab
 setl autoindent
 setl nosmartindent
 setl cindent
-setl textwidth=80
-setl colorcolumn=80
+setl textwidth=0
+setl colorcolumn=80,120
 "
 " " Folding
 setl foldmethod=indent
