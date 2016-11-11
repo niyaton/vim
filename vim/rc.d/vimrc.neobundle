@@ -83,6 +83,10 @@ NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in en
 	NeoBundle 'niyaton/vim-instant-markdown'
 " }
 
+" For Docker {
+	NeoBundle 'ekalinin/Dockerfile.vim'
+" }
+
 " ColorSchema {
 	NeoBundle 'Wombat'
 " }
