@@ -1,5 +1,5 @@
-ln -i -h -s $PWD/vimrc ~/.vimrc
-ln -i -h -s $PWD/vim ~/.vim
+ln -i -s $PWD/vimrc ~/.vimrc
+ln -i -s $PWD/vim ~/.vim
 
 if [ ! -e "${PWD}/vim/bundle/neobundle.vim" ] ; then
 	echo "clone neobundle.vim"
