@@ -1,11 +1,22 @@
 " ------------------------------------------------------------------------------
-" for vim-powerline 
+" for vim-powerline
 " ------------------------------------------------------------------------------
 set laststatus=2	" always display status line
 set ruler		" show coursor line and columns
 
-" vim-powerlineでフォントにパッチを当てないなら以下をコメントアウト
-let g:Powerline_symbols = 'fancy'
+" use powerline font
+let g:airline_powerline_fonts = 0
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+" old vim-powerline symbols
+let g:airline_left_sep = '⮀'
+let g:airline_left_alt_sep = '⮁'
+let g:airline_right_sep = '⮂'
+let g:airline_right_alt_sep = '⮃'
+let g:airline_symbols.branch = '⭠'
+let g:airline_symbols.readonly = '⭤'
+let g:airline_symbols.linenr = '⭡'
 
 " Display QuickFix list automatically
 autocmd QuickfixCmdPost make,grep,grepadd,vimgrep,vimgrepadd cwin
