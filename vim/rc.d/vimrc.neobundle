@@ -89,6 +89,7 @@ NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in en
 
 " ColorSchema {
 	NeoBundle 'Wombat'
+	NeoBundle 'tomasr/molokai'
 " }
 
 " Encoding {

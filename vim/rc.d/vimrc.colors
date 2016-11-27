@@ -1,7 +1,13 @@
 " color settings
 let g:zenburn_force_dark_Background = 1
 let g:zenburn_unified_CursorColumn = 1
-colorscheme wombat
+if &term == "screen-256color"
+  colorscheme molokai
+  hi Comment ctermfg=102
+  hi Visual  ctermbg=236
+else
+  colorscheme wombat
+endif
 
 if g:colors_name ==? 'wombat'
   hi Visual gui=none guifg=khaki guibg=olivedrab	" from sesert
