@@ -44,6 +44,7 @@ NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
 NeoBundle 'Rykka/riv.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
+NeoBundle 'vim-syntastic/syntastic'			" for programming
 
 " For Python {
 	"NeoBundle 'sontek/rope-vim'
