@@ -22,7 +22,6 @@ NeoBundle 'L9'						"Vim-script library
 NeoBundle 'tpope/vim-fugitive'				"Git plugin for vim
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'vim-airline/vim-airline'			"improve status line
-NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 NeoBundle 'FuzzyFinder'
 NeoBundle 'wincent/Command-T.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
@@ -40,11 +39,15 @@ NeoBundle 'reinh/vim-makegreen'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
-NeoBundle 'minibufexpl.vim'				" dispaly buffers like as tabs
+NeoBundle 'fholgado/minibufexpl.vim'			" dispaly buffers like as tabs
 NeoBundle 'jgdavey/tslime.vim'
-NeoBundle 'Rykka/riv.vim'
+NeoBundle 'Rykka/riv.vim'				" for reStructuredText.
 NeoBundle 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
 NeoBundle 'vim-syntastic/syntastic'			" for programming
+
+" For Python {
+	NeoBundle 'rstacruz/sparkup', {'rtp': 'vim/'}	" more faster writing for HTML. ('rtp' is runtime path.)
+" }
 
 " For Python {
 	"NeoBundle 'sontek/rope-vim'
