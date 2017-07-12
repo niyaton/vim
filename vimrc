@@ -1,4 +1,4 @@
-source ~/.vim/rc.d/vimrc.neobundle	" load plugins managed by NeoBundle
+source ~/.vim/rc.d/vimrc.vimplug	" load plugins managed by NeoBundle
 source ~/.vim/rc.d/vimrc.basic		" load Basic settings
 source ~/.vim/rc.d/vimrc.editing	" load edit settings
 source ~/.vim/rc.d/vimrc.statusline	" load statusline settings
