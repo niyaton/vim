@@ -87,5 +87,8 @@ Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of 
 	Plug 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
 " }
 
+" Ansible {
+	Plug 'pearofducks/ansible-vim'
+" }
 " Initialize plugin system
 call plug#end()
