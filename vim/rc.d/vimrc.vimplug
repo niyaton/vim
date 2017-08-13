@@ -12,7 +12,6 @@ Plug 'Shougo/neocomplcache'			"NeoComplcache
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'fholgado/minibufexpl.vim'			" dispaly buffers like as tabs
 Plug 'jgdavey/tslime.vim'
-Plug 'Rykka/riv.vim'				" for reStructuredText.
 Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
 
 " General for programming {
