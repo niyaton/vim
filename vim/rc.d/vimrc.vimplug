@@ -1,54 +1,30 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'vim-scripts/L9'						"Vim-script library
+Plug 'vim-scripts/L9'					"Vim-script library
 Plug 'tpope/vim-fugitive'				"Git plugin for vim
 Plug 'Lokaltog/vim-easymotion'
-Plug 'vim-airline/vim-airline'			"improve status line
+Plug 'vim-airline/vim-airline'				"improve status line
 Plug 'taku-o/vim-toggle'				"toggle true/false by <C-a>
-Plug 'vim-scripts/Gundo'					"improve undo
-Plug 'vim-scripts/Align'					"improve alignment
-Plug 'Shougo/unite.vim'				"Unite.vim
-Plug 'Shougo/neocomplcache'			"NeoComplcache
+Plug 'vim-scripts/Gundo'				"improve undo
+Plug 'vim-scripts/Align'				"improve alignment
+Plug 'Shougo/unite.vim'					"Unite.vim
+Plug 'Shougo/neocomplcache'				"NeoComplcache
 Plug 'nathanaelkane/vim-indent-guides'
-Plug 'fholgado/minibufexpl.vim'			" dispaly buffers like as tabs
+Plug 'fholgado/minibufexpl.vim'				" dispaly buffers like as tabs
 Plug 'jgdavey/tslime.vim'
-Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
+Plug 'bronson/vim-trailing-whitespace'			" display whitespaces located in end of lines
 
 " General for programming {
-	Plug 'vim-syntastic/syntastic'		" for programming
+	Plug 'vim-syntastic/syntastic'			" for programming
 	Plug 'reinh/vim-makegreen'
 " }
 
-" need more understanding plugins... {
-	" Plug 'FuzzyFinder'			"for faster file search
-	" Plug 'wincent/Command-T.git'		"for faster file search
-	" Plug 'scrooloose/nerdcommenter.git'	"for commentout
-	" Plug 'YankRing.vim'			"improve yank
-	" Plug 'project.tar.gz'			"manage files as project
-	" Plug 'The-NERD-tree'			"Tree style explorer
-	" Plug 'DumbBuf'					" manage buffers. list buffers by <Leader>b<Space>
-" }
-
-" For Web {
-	Plug 'rstacruz/sparkup', {'rtp': 'vim/'}	" more faster writing for HTML. ('rtp' is runtime path.)
-	Plug 'mattn/emmet-vim'
-" }
-
 " For Python {
-	" Plug 'sontek/rope-vim'
-	" Plug 'webframp/pysmell.vim'
-	" Plug 'mitechie/pyflakes-pathogen'
 	Plug 'lambdalisue/nose.vim'
 	Plug 'hynek/vim-python-pep8-indent'
 " }
 
-" For R {
-	"Plug 'vim-scripts/Vim-R-plugin'				" R plugin for vim
-	"Plug 'ervandew/screen.git'				" R plugin use it
-" }
-
 " For Ruby {
-	" Plug 'tpope/vim-endwise'
 	Plug 'vim-ruby/vim-ruby'
 " }
 
@@ -70,7 +46,6 @@ Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of 
 
 " For Markdown {
 	Plug 'vim-scripts/Markdown'
-	Plug 'niyaton/vim-instant-markdown'
 " }
 
 " For Docker {
@@ -89,5 +64,6 @@ Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of 
 " Ansible {
 	Plug 'pearofducks/ansible-vim'
 " }
+
 " Initialize plugin system
 call plug#end()
