@@ -1,6 +1,4 @@
 " color settings
-let g:zenburn_force_dark_Background = 1
-let g:zenburn_unified_CursorColumn = 1
 if &term == "screen-256color"
   silent! colorscheme molokai
   hi Comment ctermfg=102
