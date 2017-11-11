@@ -1,6 +1,6 @@
 .DS_Store
 .netrwhist
+vim/init.vim
 *~
 *.swp
 vim/plugged/*
-!vim/bundle/.gitkeep
