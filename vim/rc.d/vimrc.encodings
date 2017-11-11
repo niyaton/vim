@@ -1,4 +1,4 @@
 set ffs=unix,dos,mac	"Priority of end-of-line formats
 set encoding=utf-8 	"Default encoding
 
-" Use banyan/recognize_charcode.vim for charctor recognition 
+" Use banyan/recognize_charcode.vim for charctor recognition
