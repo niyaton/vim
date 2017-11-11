@@ -6,7 +6,7 @@ highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
 match ZenkakuSpace /　/
 
 
-"set layzyredraw " Do not redraw when executing some command
+set lazyredraw  " Do not redraw when executing some command
 set ttyfast	" Use smooth redraw on CUI
 
 " font setting for MacVim
