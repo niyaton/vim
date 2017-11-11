@@ -4,8 +4,10 @@
 set laststatus=2	" always display status line
 set ruler		" show coursor line and columns
 
-" use powerline font
-let g:airline_powerline_fonts = 1
+" Setting color theme
+if exists("g:colors_name") && g:colors_name == "tender"
+  let g:airline_theme = "tender"
+endif
 
 " Display QuickFix list automatically
 autocmd QuickfixCmdPost make,grep,grepadd,vimgrep,vimgrepadd cwin
