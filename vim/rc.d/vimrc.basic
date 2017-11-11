@@ -5,7 +5,9 @@ set clipboard+=unnamed " Use clipboard of OS
 " enable mouse on terminal.
 set mouse=a
 set guioptions+=a
-set ttymouse=xterm2
+if !has('nvim')
+  set ttymouse=xterm2
+endif
 
 command! Ev edit $MYVIMRC	" edit .vimrc
 command! Rv source $MYVIMRC	" reload .vimrc
