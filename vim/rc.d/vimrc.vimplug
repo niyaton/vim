@@ -53,6 +53,11 @@ Plug 'rdolgushin/groovy.vim'
 " ColorSchema {
   Plug 'vim-scripts/Wombat'
   Plug 'tomasr/molokai'
+  Plug 'dracula/vim'
+  Plug 'sjl/badwolf'
+  Plug 'tyrannicaltoucan/vim-quantum'
+  Plug 'rakr/vim-one'
+  Plug 'jacoborus/tender.vim'
 " }
 
 " Encoding {
