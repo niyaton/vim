@@ -9,7 +9,8 @@ Plug 'Shougo/unite.vim'					"Unite.vim
 Plug 'Shougo/neocomplcache'				"NeoComplcache
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'jgdavey/tslime.vim'
-Plug 'bronson/vim-trailing-whitespace'			" display whitespaces located in end of lines
+Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
+Plug 'rdolgushin/groovy.vim'
 
 " General for programming {
 	Plug 'vim-syntastic/syntastic'			" for programming
