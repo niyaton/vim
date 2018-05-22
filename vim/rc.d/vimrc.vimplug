@@ -72,5 +72,10 @@ Plug 'rdolgushin/groovy.vim'
 Plug 'PProvost/vim-ps1'
 " }
 
+
+" Haskell {
+Plug 'kana/vim-filetype-haskell'
+" }
+
 " Initialize plugin system
 call plug#end()
