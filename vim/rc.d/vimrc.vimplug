@@ -68,5 +68,9 @@ Plug 'rdolgushin/groovy.vim'
   Plug 'pearofducks/ansible-vim'
 " }
 
+" PowerShell {
+Plug 'PProvost/vim-ps1'
+" }
+
 " Initialize plugin system
 call plug#end()
