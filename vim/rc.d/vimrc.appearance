@@ -5,6 +5,4 @@ set number 	" display line number
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
 match ZenkakuSpace /　/
 
-
 set lazyredraw  " Do not redraw when executing some command
-set ttyfast	" Use smooth redraw on CUI
