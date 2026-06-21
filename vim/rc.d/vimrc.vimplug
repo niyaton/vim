@@ -15,7 +15,7 @@ Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of 
 " }
 
 " For Python {
-  Plug 'hynek/vim-python-pep8-indent'
+  Plug 'Vimjas/vim-python-pep8-indent'
 " }
 
 " For Docker {
