@@ -1,10 +1,9 @@
-set backspace=indent,eol,start
-
 set clipboard+=unnamed " Use clipboard of OS
 
 " enable mouse on terminal.
 set mouse=a
 if !has('nvim')
+  set backspace=indent,eol,start
   set ttymouse=xterm2
   set guioptions+=a
 endif
