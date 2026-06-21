@@ -3,6 +3,6 @@ set number 	" display line number
 
 " Dispaly ZenkakuSpace
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
-match ZenkakuSpace /　/
+call matchadd('ZenkakuSpace', '　')
 
 set lazyredraw  " Do not redraw when executing some command
