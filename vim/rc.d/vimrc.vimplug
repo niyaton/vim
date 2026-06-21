@@ -6,47 +6,17 @@ endif
 
 Plug 'Lokaltog/vim-easymotion'
 Plug 'vim-airline/vim-airline'				"improve status line
-Plug 'taku-o/vim-toggle'				"toggle true/false by <C-a>
-Plug 'vim-scripts/Gundo'				"improve undo
 Plug 'vim-scripts/Align'				"improve alignment
-Plug 'Shougo/unite.vim'					"Unite.vim
 Plug 'Shougo/neocomplcache'				"NeoComplcache
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
-Plug 'rdolgushin/groovy.vim'
 
 " General for programming {
   Plug 'vim-syntastic/syntastic'			" for programming
-  Plug 'reinh/vim-makegreen'
 " }
 
 " For Python {
-  Plug 'lambdalisue/nose.vim'
   Plug 'hynek/vim-python-pep8-indent'
-" }
-
-" For Ruby {
-  Plug 'vim-ruby/vim-ruby'
-" }
-
-" For Rails {
-  Plug 'tpope/vim-rails'
-" }
-
-" For Go {
-  Plug 'fatih/vim-go'
-" }
-
-" For JSON {
-  Plug 'elzr/vim-json'
-" }
-
-" For Coffee Script {
-  Plug 'kchmck/vim-coffee-script'
-" }
-
-" For Markdown {
-  Plug 'vim-scripts/Markdown'
 " }
 
 " For Docker {
@@ -54,34 +24,12 @@ Plug 'rdolgushin/groovy.vim'
 " }
 
 " ColorSchema {
-  Plug 'vim-scripts/Wombat'
   Plug 'tomasr/molokai'
-  Plug 'dracula/vim'
-  Plug 'sjl/badwolf'
-  Plug 'tyrannicaltoucan/vim-quantum'
-  Plug 'rakr/vim-one'
   Plug 'jacoborus/tender.vim'
 " }
 
 " Encoding {
   Plug 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
-" }
-
-" Ansible {
-  Plug 'pearofducks/ansible-vim'
-" }
-
-" PowerShell {
-Plug 'PProvost/vim-ps1'
-" }
-
-
-" Haskell {
-Plug 'kana/vim-filetype-haskell'
-" }
-
-" YAML {
-  Plug 'stephpy/vim-yaml'
 " }
 
 " Initialize plugin system
