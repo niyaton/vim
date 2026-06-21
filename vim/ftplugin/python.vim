@@ -1,11 +1,2 @@
-" PEP 8 Indent rule
-setl tabstop=8
-setl smarttab
-setl autoindent
-setl nosmartindent
-setl textwidth=0
+setl tabstop=8 " Display literal TAB characters as 8 columns (PEP8 convention)
 setl colorcolumn=80,120
-"
-" " Folding
-setl foldmethod=indent
-setl foldlevel=99
