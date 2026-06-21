@@ -7,7 +7,4 @@ if !has('nvim')
   set guioptions+=a
 endif
 
-command! Ev edit $MYVIMRC	" edit .vimrc
-command! Rv source $MYVIMRC	" reload .vimrc
-
 filetype plugin on " turn on file type
