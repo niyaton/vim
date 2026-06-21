@@ -32,11 +32,6 @@ autocmd FileType ruby setl smartindent
 autocmd FileType ruby setl expandtab
 autocmd FileType ruby setl tabstop=2 shiftwidth=2 softtabstop=2
 
-" ------------------------------------------------------------------------------
-" Basic Settings
-" ------------------------------------------------------------------------------
-set backspace=indent,eol,start
-
 " for vim-indent-guides
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
