@@ -5,6 +5,5 @@ set mouse=a
 if !has('nvim')
   set backspace=indent,eol,start
   set guioptions+=a
+  filetype plugin on " turn on file type
 endif
-
-filetype plugin on " turn on file type
