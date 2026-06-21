@@ -8,7 +8,6 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'vim-airline/vim-airline'				"improve status line
 Plug 'vim-scripts/Align'				"improve alignment
 Plug 'Shougo/neocomplcache'				"NeoComplcache
-Plug 'nathanaelkane/vim-indent-guides'
 Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
 
 " General for programming {
