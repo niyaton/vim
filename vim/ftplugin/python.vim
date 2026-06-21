@@ -13,5 +13,3 @@ setl colorcolumn=80,120
 " " Folding
 setl foldmethod=indent
 setl foldlevel=99
-
-compiler nose
