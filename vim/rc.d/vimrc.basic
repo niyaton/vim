@@ -1,4 +1,4 @@
-set clipboard+=unnamed " Use clipboard of OS
+set clipboard+=unnamed,unnamedplus " Use clipboard of OS
 
 " enable mouse on terminal.
 set mouse=a
