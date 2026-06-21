@@ -15,13 +15,6 @@ execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.search')
 execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.encodings')
 execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.completion')
 
-" ------------------------------------------------------------------------------
-" for python
-" ------------------------------------------------------------------------------
-autocmd FileType python setl autoindent
-autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
-
 " for vim-indent-guides
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
