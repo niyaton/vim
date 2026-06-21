@@ -10,4 +10,9 @@ cnoremap <C-n> <Down>
 cnoremap <Down>  <C-n>
 
 " Use neocomplcache
-source ~/.vim/rc.d/vimrc.completion.neocomplcache
+if has('nvim')
+  let s:config_dir = stdpath('config')
+else
+  let s:config_dir = expand('~/.vim')
+endif
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.completion.neocomplcache')

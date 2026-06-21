@@ -1,13 +1,20 @@
-source ~/.vim/rc.d/vimrc.vimplug	" load plugins managed by NeoBundle
-source ~/.vim/rc.d/vimrc.basic		" load Basic settings
-source ~/.vim/rc.d/vimrc.editing	" load edit settings
-source ~/.vim/rc.d/vimrc.statusline	" load statusline settings
-source ~/.vim/rc.d/vimrc.indent		" load indent settings
-source ~/.vim/rc.d/vimrc.colors		" load color settings
-source ~/.vim/rc.d/vimrc.appearance	" load setting for appearance of Vim
-source ~/.vim/rc.d/vimrc.search		" load search settings
-source ~/.vim/rc.d/vimrc.encodings	" load settings for encodings
-source ~/.vim/rc.d/vimrc.completion	" load settings for completion
+if has('nvim')
+  let s:config_dir = stdpath('config')
+else
+  let s:config_dir = expand('~/.vim')
+endif
+
+" load settings from rc.d directory
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.vimplug')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.basic')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.editing')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.statusline')    
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.indent')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.colors')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.appearance')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.search')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.encodings')
+execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.completion')
 
 " ------------------------------------------------------------------------------
 " for python
