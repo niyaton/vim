@@ -27,9 +27,5 @@ Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of 
   Plug 'jacoborus/tender.vim'
 " }
 
-" Encoding {
-  Plug 'banyan/recognize_charcode.vim'		"For recognize charctor encodings automatically
-" }
-
 " Initialize plugin system
 call plug#end()

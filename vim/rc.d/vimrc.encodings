@@ -1,4 +1,7 @@
 set ffs=unix,dos,mac	"Priority of end-of-line formats
-set encoding=utf-8 	"Default encoding
 
-" Use banyan/recognize_charcode.vim for charctor recognition
+" commands for reopen with selected encoding
+command! ReopenUtf8 edit ++enc=utf-8
+command! ReopenSjis edit ++enc=cp932
+command! ReopenEuc  edit ++enc=euc-jp
+command! ReopenIso  edit ++enc=iso-2022-jp
