@@ -5,7 +5,8 @@ else
 endif
 
 Plug 'Lokaltog/vim-easymotion'
-Plug 'vim-airline/vim-airline'				"improve status line
+" TODO: Migrate from vim-airline to lualine after dropping legacy Vim support.
+Plug 'vim-airline/vim-airline'                          " improve status line
 Plug 'vim-scripts/Align'				"improve alignment
 Plug 'Shougo/neocomplcache'				"NeoComplcache
 Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
