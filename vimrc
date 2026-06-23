@@ -1,8 +1,4 @@
-if has('nvim')
-  let s:config_dir = stdpath('config')
-else
-  let s:config_dir = expand('~/.vim')
-endif
+let s:config_dir = stdpath('config')
 
 " load settings from rc.d directory
 execute 'source ' . fnameescape(s:config_dir . '/rc.d/vimrc.vimplug')
