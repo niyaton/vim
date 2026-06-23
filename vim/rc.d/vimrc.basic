@@ -1,15 +1,9 @@
-set backspace=indent,eol,start
-
-set clipboard+=unnamed " Use clipboard of OS
+set clipboard+=unnamed,unnamedplus " Use clipboard of OS
 
 " enable mouse on terminal.
 set mouse=a
 if !has('nvim')
-  set ttymouse=xterm2
+  set backspace=indent,eol,start
   set guioptions+=a
+  filetype plugin on " turn on file type
 endif
-
-command! Ev edit $MYVIMRC	" edit .vimrc
-command! Rv source $MYVIMRC	" reload .vimrc
-
-filetype plugin on " turn on file type

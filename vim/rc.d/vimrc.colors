@@ -12,4 +12,6 @@ else
   silent! colorscheme molokai
 endif
 
-syntax enable " turn on syntax hilighting
+if !has('nvim')
+  syntax enable " turn on syntax hilighting
+endif
