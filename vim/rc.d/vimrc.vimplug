@@ -1,11 +1,7 @@
-if has('nvim')
-  call plug#begin(stdpath('data') . '/plugged')
-else
-  call plug#begin('~/.vim/plugged')
-endif
+call plug#begin(stdpath('data') . '/plugged')
 
 " TODO: Evaluate flash.nvim after Neovim-only migration
-" TODO: Migrate from vim-airline to lualine after dropping legacy Vim support.
+" TODO: Migrate from vim-airline to lualine.
 Plug 'vim-airline/vim-airline'                          " improve status line
 Plug 'Shougo/neocomplcache'				"NeoComplcache
 Plug 'bronson/vim-trailing-whitespace'		" display whitespaces located in end of lines
