@@ -1,7 +1,3 @@
 " color settings
-if has("termguicolors")
-  set termguicolors
-  silent! colorscheme tender
-else
-  silent! colorscheme molokai
-endif
+set termguicolors
+silent! colorscheme tender
